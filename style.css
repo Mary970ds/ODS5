@@ -1,0 +1,150 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(36, 18, 48);
+}
+
+.flex-container{
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-container img{
+    width: 170px;
+}
+.menu-nav{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.menu-nav a{
+    padding: 2px;
+    width: 100%;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+h2{
+    text-align: center;
+    font-style: inherit;
+    color: rgb(244, 244, 252);
+    font-size: 30px;
+}
+.p1{
+    color: rgb(255, 203, 220);
+    text-align: justify;
+    display: table-column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1cm;
+}
+
+.p2{
+    color: rgb(85, 190, 238);
+    text-align: justify;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin: 1cm;
+}
+.p2 img{
+    width: 400px;
+    margin: 5cm;
+    align-items: center;
+
+}
+
+.p3{
+    color: rgb(246, 248, 141);
+    text-align: justify;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin: 1cm;
+}
+h3{
+    text-align: center;
+    font-style: inherit;
+    color: rgb(255, 197, 159);
+    font-size: 20px;
+}
+.p4{
+    color: rgb(246, 248, 141);
+    text-align: justify;
+    display: inline-flex;
+    align-items: center;
+    margin: 1cm;
+}
+.p5{
+    color: rgb(218, 153, 255);
+    text-align:left;
+    align-items: center;
+    margin: 1cm;
+}
+.p6{
+    color: rgb(246, 248, 141);
+    text-align: justify;
+    display: inline-flex;
+    align-items: center;
+    margin: 1cm;
+}
+.p7{
+    color: rgb(244, 244, 252);
+    margin: 1cm;
+}
+.ods{
+    text-align: justify;
+    display: inline-flex;
+    align-items: center;
+    margin: 1cm;
+}
+.text{
+    margin: 1cm;
+}
+
+.qse{
+    margin-top: 50px;
+    margin: 2cm;
+    background-color: rgb(161, 48, 86);
+   box-shadow: 10px 10px 10px black;
+   text-align: justify;
+    display: inline-flex;
+    align-items: center;
+    
+}
+.qse img{
+    width: 100px;
+    margin: 5mm;
+}
+
+
+  @media(max-width: 750px){
+
+  
+    /*-------------------------MENU---------------------------*/
+.flex-container{
+     flex-direction: column;
+    text-align: center;
+    max-width: 110%;
+}
+.menu-nav{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+.menu-nav a{
+    padding: 6px;
+    text-align: center;
+    margin-top: 5px;
+}
+.mm img{
+    flex-direction: column;
+    padding-right: 10px;
+    width: 90%;
+}
+
+  }
